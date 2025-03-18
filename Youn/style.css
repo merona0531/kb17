@@ -1,0 +1,39 @@
+body {
+  /* 메인 페이지 중앙정렬 */
+  margin: 30px auto;
+  width: 960px;
+}
+
+/* 자기 소개 페이지 칸 */
+.main_text {
+  border: 1px solid black;
+  border-radius: 10px;
+  float: right;
+
+  margin-top: 10px;
+}
+
+/* 세부적 요소 */
+h1 {
+  margin: 30px;
+  text-align: center;
+  background-color: gray;
+}
+
+img {
+  float: left;
+  width: 500px;
+  height: 500px;
+
+  margin-right: 30px;
+}
+
+p {
+  font-size: 30px;
+  margin: 0 0 10px 30px;
+}
+
+#tag {
+  margin-top: 50px;
+  font-weight: bold;
+}
