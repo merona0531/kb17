@@ -1,3 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.content {
+  width: 40%; /* 원하는 너비 설정 (60%로 설정) */
+  text-align: left; /* 텍스트는 왼쪽 정렬 */
+}
+
 #title {
   color: darkgray;
 }
@@ -12,4 +26,5 @@
 
 img {
   width: 500px;
+  margin: 20px 0;
 }
