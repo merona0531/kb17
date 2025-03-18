@@ -1,0 +1,15 @@
+#title {
+  color: darkgray;
+}
+
+#like {
+  color: tomato;
+}
+
+#dislike {
+  color: blue;
+}
+
+img {
+  width: 500px;
+}
