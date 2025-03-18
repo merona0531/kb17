@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+body {
+    font-family: 'Jua', sans-serif;
+    background-color: #FFFAE5;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    width: 300vw; /* 페이지 3개니까 300% */
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 프로필 페이지 */
+.photo-slider img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #FF6392;
+}
+
+.info {
+    background: #FFD3B6;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.bio {
+    margin-top: 30px;
+    background: #FFABAB;
+    padding: 5px 30px; 
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 개발 스택 */
+.stack-logos img {
+    width: 80px;
+    margin: 10px;
+}
+
+/* 강아지 갤러리 */
+.gallery {
+    background-color: wheat;
+    justify-content: center;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 10px;
+    width: 65%;
+    padding: 10px;
+    margin: 0 auto; /* 갤러리 중앙 정렬 */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* 가로 중앙 정렬 */
+}
+
+.gallery img {
+    width: 250px; /* 이미지 크기 조정 */
+    height: 250px; /* 이미지 크기 조정 */
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 10px; /* 이미지 간격 조정 */
+}
+/* 버튼 스타일 */
+button {
+    position: fixed;
+    top: 50%;
+    font-weight: bolder;
+    transform: translateY(-50%);
+    font-size: 70px;
+    background: transparent;
+    color: rgba(255, 99, 146, 0.8);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#prev { left: 160px; font-weight: bolder;}
+#next { right: 160px; }
